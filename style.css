@@ -1,0 +1,118 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 7%;
+    align-items: center;
+}
+.header .navbar a{
+    word-spacing: 5px;
+    font-style: bold;
+    font-size: 2.1rem;
+    margin-left: 0.2rem;
+    margin-right: 1rem;
+    color: rgb(211, 233, 13);
+    text-decoration: none;
+}
+.header .navbar a:hover{
+    background: white;
+    padding: .5rem 3rem;
+    border-radius: 15px;
+}
+.navbar.active{
+    top: 50%;
+}
+.classs1{
+        background: url(images/back4.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .home1{
+        padding-top: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .inner-content{
+        background: #ffc61a;
+        width: 100%;
+        padding-top: 4rem;
+    }
+    .inner-content h2{
+        font-size: 18px;
+        padding-bottom: 2rem;
+        padding-left:62rem;
+
+    }
+    .inner-content h3{
+        font-size: 31px;
+        padding-bottom: 3rem;
+        padding-left:63rem;
+        padding-right: 20rem;
+
+    }
+    .clash2{
+        color: white;
+        font-size: 50px;
+        position: absolute;
+        top: 60%;
+        left: 52%;
+        transform: translate(-50%, -50%);
+    
+    }
+    .clash2 h2 span{
+        color: #ffc61a;
+    }
+    .clash2 img{
+        margin-left: 148px;
+    }
+    .clash2 a span{
+        color: #251aff;
+    }
+    .form-fields{
+        border: 8px solid rgb(81, 0, 255);
+        padding-top: 10rem;
+        background-color: #ffc61a;
+        font-size: 1.5rem;
+        width: 45rem;
+        text-align: center;
+        padding: 2rem 1rem;
+        margin: 0 auto;
+    }
+    .form-heading{
+        padding-top: 10rem;
+    }
+    .mains{
+        background-image: url("images/back4.jpg");
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .form-fields input{
+    padding: 2rem ;
+    border: none;
+    border-bottom: 1px solid black;
+    }
+      .submit1 button a{
+        display: inline-block;
+        font-family: sans-serif;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        border: black;
+    }
