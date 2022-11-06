@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: rgb(211, 233, 13);
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    margin: 0%;
+  }
+  .fa-map-marker-alt,
+  .fa-dot-circle {
+    color: #5bc0de;
+  }
+  
+  /*Jumbotron*/
+  .jumbotron {
+    background-image: url("images/back4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    height: 100vh;
+    position: relative;
+  }
+  ::placeholder{
+    color: red;
+    opacity: 9;
+  }
+  .jumbotron h1 {
+    letter-spacing: 2.5px;
+    font-size: 3.5em;
+  }
+  
+  .jumbotron h1,
+  .jumbotron p {
+    text-align: center;
+  }
+  
+  /*map*/
+  #googleMap {
+    width: 40%;
+    height: 100px;
+    margin: 10px auto;
+  }
+  
+  /*output box*/
+  #output {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+  }
+  
+  #mode {
+    color: black;
+  }
+ .bookings{
+    padding-top: 100px;
+    text-align:center;
+    font-size: 20px;
+    display: flex;
+    flex-flow: column;
+    overflow: auto;
+    height: 200px;
+    }
+  

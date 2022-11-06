@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +7,9 @@ html{
     font-size: 62.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
+}
+.contact{
+    text-align: center;
 }
 .header{
     display: flex;
@@ -19,10 +21,11 @@ html{
 .header .navbar a{
     word-spacing: 5px;
     font-style: bold;
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     margin-left: 0.2rem;
     margin-right: 1rem;
     color: rgb(211, 233, 13);
+    margin-top: 0.4rem;
     text-decoration: none;
 }
 .header .navbar a:hover{
@@ -33,8 +36,12 @@ html{
 .navbar.active{
     top: 50%;
 }
+.marks{
+    text-decoration: #ffc61a;
+    text-align: center;
+}
 .classs1{
-        background: url(images/back4.jpg);
+        background: url(images/back2.jpg);
         background-position: center;
         background-size: cover;
         width: 100%;
@@ -115,4 +122,109 @@ html{
         font-size: 20px;
         color: rgb(0, 0, 0);
         border: black;
+    }
+
+    .main-tariff{
+        align-content: center;
+        padding: 3rem 7%;
+        background-image: url("images/download\ \(2\).jpeg");
+       
+       
+    }
+    .main-tariff h1{
+        font-size: 38px;
+        text-align: center;
+        padding-bottom: 6rem;
+    }
+    .main-tariff h1 span{
+        color: #ffc61a;
+    }
+    .inner-tarrif{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .tarrif-container{
+        flex: 1 1 250px;
+        text-align: center;
+        padding: 3rem 0;
+    }
+    .tarrif-container img{
+        width: 60%;
+        margin-top: -50px;
+    }
+    .tarrif-container .inner-box h2{
+        font-size: 30px;
+    }
+    .tarrif-container .inner-box p{
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .tarrif-container .inner-box h3{
+        color: #ffc61a;
+        font-size: 2rem;
+    }
+    .tarrif-container .inner-box a{
+        font-size: 1.5rem;
+        padding: 1rem 3rem;
+    
+    }
+    .tarrif-container:nth-child(2){
+        background: #ffc61a;
+    }
+    .heading-yellow{
+        color: black;
+    }
+    .yellw-section{
+        color: black !important;
+    }
+    .tarrif-container a{
+        color: white;
+        padding: 1rem 3rem;
+        background: black;
+        display: inline-block;
+        margin-top: 1rem;
+    
+    }
+    .testimonials{
+        background-image: url("images/test1.png");
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        display: flex;
+        width: 100%;
+
+    }
+    .testimonials .heading-test{
+        color: #ffc61a;
+        font-size: 38px;
+        padding: 2rem;
+        text-align: center;
+    }
+    .main-testimonials{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 2rem 7%;
+    }
+    .inner-test{
+        flex: 1 1 45rem;
+        color: white;
+        background: black;
+        padding: 2rem;
+    }
+    .inner-test p{
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .clients{
+        display: flex;
+        align-items: center;
+    
+    }
+    .clients h1{
+        color: #ffc61a;
+        margin-left: 1rem;
     }
