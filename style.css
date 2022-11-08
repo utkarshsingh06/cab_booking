@@ -18,12 +18,20 @@ html{
     padding: 2rem 7%;
     align-items: center;
 }
+.new1{
+    margin-top: 1.5rem;
+     /* border-style: dotted;
+    border-color: red;  */
+}
+.header .navbar{
+    margin-right: 60px;
+}
 .header .navbar a{
-    word-spacing: 5px;
+    word-spacing: 8px;
     font-style: bold;
     font-size: 2.8rem;
     margin-left: 0.2rem;
-    margin-right: 1rem;
+    margin-right: 3rem;
     color: rgb(211, 233, 13);
     margin-top: 0.4rem;
     text-decoration: none;
@@ -37,15 +45,41 @@ html{
     top: 50%;
 }
 .marks{
+    margin-top: 70px;
     text-decoration: #ffc61a;
-    text-align: center;
+    border-style: dotted;
+    border-color:blue;
+}
+.marq{
+    border-style: dotted;
+    border-color: aquamarine;
 }
 .classs1{
-        background: url(images/back2.jpg);
+        background: url(images/backop.png);
         background-position: center;
         background-size: cover;
         width: 100%;
         height: 100vh;
+        /* border-color: chartreuse;
+        border-style: dotted;  */
+    }
+    .logost{
+        font-size: large;
+        float: right;
+        margin-right: 97px;
+        color: yellow;
+        margin-bottom: 80px;
+        /* border-color: red;
+        border-style: dotted;  */
+    }
+    .logost1{
+        font-size: large;
+        float: right;
+        margin-right: 97px;
+        color: yellow;
+        margin-bottom: 80px;
+        border-color: red;
+        border-style: dotted;  
     }
     .home1{
         padding-top: 4rem;
@@ -77,9 +111,11 @@ html{
         color: white;
         font-size: 50px;
         position: absolute;
-        top: 60%;
+        top: 65%;
         left: 52%;
         transform: translate(-50%, -50%);
+        /* border-style: dotted;
+        border-color: red; */
     
     }
     .clash2 h2 span{

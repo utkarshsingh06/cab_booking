@@ -125,15 +125,3 @@
 	display: block;
 	text-transform: uppercase;
 }
-
-.booking-form .submit-btn {
-	color: #101113;
-	background-color: #ffc001;
-	font-weight: 700;
-	height: 50px;
-	border: none;
-	width: 100%;
-	display: block;
-	border-radius: 3px;
-	text-transform: uppercase;
-}

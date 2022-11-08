@@ -1,31 +1,24 @@
+<?php
+session_start();
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
 	<title>Booking Form</title>
-
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-
 	<!-- Bootstrap -->
 	<link type="text/css" rel="stylesheet" href="bootstrap.min.css"/>
-
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="style1.css"/>
 	<script defer src="script.js"></script>
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-		<![endif]-->
-
 </head>
 <body>
 	<div id="booking" class="section">
@@ -143,11 +136,10 @@
 							</div>
 							<div class="form-group">
 								<span class="form-label">Vehicle type</span>
-								<!-- <input class="form-control" type="text" id="drops" name="drops" placeholder="Enter ZIP/Location"> -->
 								<select  class="form-control" name="vehicle" id="vehicle" required>
-									<option value="G block">4 wheeler</option>
-									<option value="E block">6 wheeler</option>
-									<option value="L block">8 wheeler</option>
+									<option value="4 WHEELER">4 wheeler</option>
+									<option value="6 WHEELER">6 wheeler</option>
+									<option value="8 WHEELER">8 wheeler</option>
 								</select>
 							</div>
 							<div class="form-btn">
@@ -160,6 +152,6 @@
 			</div>
 		</div>
 	</div>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</body>
 
 </html>

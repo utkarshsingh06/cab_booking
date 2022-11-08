@@ -1,3 +1,10 @@
+<?php
+session_start();
+// if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+//     header("location: login.php");
+//     exit;
+// }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,13 +18,13 @@
 <body> 
     <div class="classs1">
         <div class="clash2">
-            <div class="marks">
-                <marquee direction="up" style="color: rgb(211, 233, 13);text-align: center;" >Currrently open</marquee>
-            </div>
+            <!-- <div class="marks">
+            <marquee class="marq" direction="up" style="color: rgb(211, 233, 13);text-align: center;" >Currrently open</marquee>
+            </div> -->
             <a href="#" id="logo"><img align="center" width="210px" src="images/now.jpg" alt=""></a>
             <br>
             <h2>book a <span>cab now</span></h2>
-            <a style="padding-left: 15rem;" href="index.html"target="_blank">book now</a><br><br><br>
+            <a style="padding-left: 15rem;" href="index.php"target="_blank">book now</a><br><br><br><br>
             <div  style=" color: red;font-size: 3rem; text-align: center;"><a href="register.php"target="_blank">Sign Up</a>
                  <p style="font-size: 2rem;">Already have an account? <a style="font-size: 1.8rem;" href="login.php">Login here</a></p>
                  </div>
@@ -30,9 +37,11 @@
                 <a href="fares.html">Info</a>
                 <a href="#">Contact</a>
                 <a href="feed.html">Faqs</a>
-
+                <a href="booking.php">Bookings</a>
             </nav>
+            <a class="new1" href="login.php"><img  alt="Login" margin-top="2rem" width="40px" height="35px" src="images/user.png"><div align="center" style="font-size: 20px;color: yellow;"><?php if(!isset($_SESSION["loggedin"])){echo "Login";}?></div></a>
         </header>
+        <b class="logost"><?php if(isset($_SESSION["loggedin"])){echo htmlspecialchars($_SESSION["username"]);}?></b>
     </div>
             <div class="main-tariff">
                 <h1>our <span>tarrif</span></h1>
